@@ -1,10 +1,10 @@
 # Site settings
 title: Alana Darcher
-description: human brains & co.
+description: brains & co.
 url: https://a-darcher.github.io # Your GitHub Pages URL
 
 # Build settings
-#theme: minima # You can change the theme or use your own
+theme: minima # You can change the theme or use your own
 markdown: kramdown
 permalink: pretty
 
