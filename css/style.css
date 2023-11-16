@@ -1,4 +1,34 @@
-/* Example styles for the circular logo */
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling for header, main, and footer */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header, footer {
+    background-color: #ddd;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Style headings and paragraphs */
+h1, h2 {
+    margin-bottom: 10px;
+}
+
+
 .logo {
     width: 100px; /* Adjust size as needed */
     height: 100px; /* Adjust size as needed */
