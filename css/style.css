@@ -5,8 +5,7 @@
     height: 300px; /* Adjust size as needed */
     overflow: hidden;
     border-radius: 50%; /* Makes the image round */
-    display: flex;
-    align-items: center;
+
 }
 
 .profile-img {
