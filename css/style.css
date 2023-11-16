@@ -16,7 +16,7 @@
 .social-icon {
     margin-right: 10px; 
     height: 30px;
-    width: auto; 
+    width: 30px; 
     display: flex;
     flex-direction: row;
     justify-content: center;
