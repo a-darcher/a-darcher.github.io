@@ -5,14 +5,14 @@
     box-sizing: border-box;
 }
 
-/* Basic styling for header, main, and footer */
+/* Basic styling for header, main, and footer 
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     background-color: #f4f4f4;
     color: #333;
 }
-
+*/
 header, footer {
     background-color: #ddd;
     padding: 20px;
@@ -30,8 +30,8 @@ h1, h2 {
 
 
 .logo {
-    width: 100px; /* Adjust size as needed */
-    height: 100px; /* Adjust size as needed */
+    width: 300px; /* Adjust size as needed */
+    height: 300px; /* Adjust size as needed */
     overflow: hidden;
     border-radius: 50%; /* Makes the image round */
 }
