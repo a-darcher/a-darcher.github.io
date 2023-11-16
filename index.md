@@ -7,7 +7,7 @@ layout: default
 {% include header.html %}
 
 <main>
-    {% include modules/about.md %}
+    {% include about.md %}
 </main>
 
 {% include footer.html %}
