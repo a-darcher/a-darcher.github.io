@@ -17,15 +17,15 @@
 
     float: left;
     margin: 10px
+    margin-bottom: 10px;
 
 }
 
 .social-icon img {
-    width: 50px; 
+    width: 30px; 
     height: auto;
     vertical-align: middle;
     margin-right: 10px;
     transition: opacity 0.5s ease;
 }
-
 
