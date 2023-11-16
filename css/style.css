@@ -22,4 +22,8 @@
     justify-content: center;
 }
 
+.social-icon img {
+    width: 100%; /* Fill the container */
+    height: auto; /* Maintain aspect ratio */
+}
 
