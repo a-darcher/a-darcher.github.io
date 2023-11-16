@@ -1,16 +1,11 @@
-
-
 .profile {
-    width: 300px; /* Adjust size as needed */
-    height: 300px; /* Adjust size as needed */
-    overflow: hidden;
-    border-radius: 50%; /* Makes the image round */
-
+    display: flex;
+    align-items: center;
 }
 
 .profile-img {
-    width: 100%; /* Fill the container */
-    height: auto; /* Maintain aspect ratio */
+    width: 300px;
+    height: auto;
     display: block;
     margin-right: 20px; 
 }
