@@ -15,8 +15,7 @@
 
 .social-icon {
 
-    
-    float: left;
+    float: center;
     text-align: right;
     padding: 0 2em;
     margin-right: 20px;
@@ -28,7 +27,7 @@
     width: 50px; 
     height: auto;
     vertical-align: middle;
-    margin-left: 5px;
+    margin-right: 10px;
     transition: opacity 0.5s ease;
 }
 
