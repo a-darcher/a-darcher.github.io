@@ -1,44 +1,27 @@
-/* Reset default margin and padding */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.profile {
+    display: flex;
+    align-items: center;
 }
 
-/* Basic styling for header, main, and footer 
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f4f4f4;
-    color: #333;
-}
-*/
-header, footer {
-    background-color: #ddd;
-    padding: 20px;
-    text-align: center;
+.profile-img {
+    width: 300px; 
+    height: 300px; 
+    border-radius: 50%;
+    margin-right: 20px; 
 }
 
-main {
-    padding: 20px;
+.social-icons {
+    display: flex;
 }
 
-/* Style headings and paragraphs */
-h1, h2 {
-    margin-bottom: 10px;
+.social-icon {
+    margin-right: 10px; 
+    width: 30px; 
+    height: 30px;
 }
 
-
-.logo {
-    width: 300px; /* Adjust size as needed */
-    height: 300px; /* Adjust size as needed */
-    overflow: hidden;
-    border-radius: 50%; /* Makes the image round */
-}
-
-.logo-img {
-    width: 100%; /* Fill the container */
-    height: auto; /* Maintain aspect ratio */
-    display: block;
+.social-icon img {
+    width: 100%; 
+    height: auto; 
 }
 
