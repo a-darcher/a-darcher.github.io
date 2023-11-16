@@ -2,8 +2,6 @@
 layout: default
 ---
 
-# Alana Darcher 
-
 {% include header.html %}
 
 <main>
