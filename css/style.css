@@ -1,0 +1,14 @@
+/* Example styles for the circular logo */
+.logo {
+    width: 100px; /* Adjust size as needed */
+    height: 100px; /* Adjust size as needed */
+    overflow: hidden;
+    border-radius: 50%; /* Makes the image round */
+}
+
+.logo-img {
+    width: 100%; /* Fill the container */
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+}
+
