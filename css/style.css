@@ -25,6 +25,7 @@
     width: 30px; 
     height: auto;
     vertical-align: middle;
+    horizontal-align: center;
     margin-right: 10px;
     transition: opacity 0.5s ease;
 }
