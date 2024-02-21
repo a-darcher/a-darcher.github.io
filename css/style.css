@@ -17,7 +17,23 @@
 }
 
 #socials {
-    text-align: center; /* Center align social links */
+    margin-top: 20px; /* Add space between the image and social buttons */
+    text-align: center; /* Center align social buttons */
+}
+
+.social-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.social-button {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
 }
 
 /* Add your other CSS styles here */
