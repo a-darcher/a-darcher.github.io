@@ -22,7 +22,7 @@
 
 .right {
     flex: 0 0 800px; /* Allow the right column to grow */
-    margin-top: 50px; /* Add top margin to the right column */
+    margin-top: 70px; /* Add top margin to the right column */
 }
 
 
