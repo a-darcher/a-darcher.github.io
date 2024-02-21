@@ -25,28 +25,13 @@
     margin-top: 70px; /* Add top margin to the right column */
 }
 
-
-#socials {
-    margin-top: 20px; /* Add space between the image and social buttons */
-    text-align: center; /* Center align social buttons */
-}
-
 .social-buttons {
-    display: flex !important;
-    justify-content: center;
+    text-align: center; /* Center align the buttons */
 }
 
 .social-button {
-    display: inline-block;
-    margin: 5px;
-    padding: 0; /* Remove padding from button */
-    background-color: transparent; /* Make background transparent */
-    border: none; /* Remove border */
-}
-
-.social-button img {
-    width: 30px; /* Decrease the width of the social logo */
-    height: auto; /* Maintain aspect ratio */
+    display: inline-block; /* Display buttons inline */
+    margin-right: 10px; /* Add some spacing between buttons */
 }
 
 .profile-info {
