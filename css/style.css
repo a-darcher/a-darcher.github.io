@@ -10,7 +10,10 @@
 
 .left img {
     max-width: 100%; /* Ensure the image doesn't overflow its container */
+    border-radius: 50%; /* Make the image round */
+    border: none; /* Add a border to the image (optional) */
 }
+
 
 .right {
     flex: 1; /* Allow the right column to grow */
@@ -35,8 +38,42 @@
 }
 
 .social-button img {
-    width: 40px; /* Adjust the width of the social logo */
+    width: 30px; /* Decrease the width of the social logo */
+    height: auto; /* Maintain aspect ratio */
 }
 
-/* Add your other CSS styles here */
+/* Example font-family declarations */
+
+/* Body font */
+body {
+    font-family: Arial, sans-serif; /* Example font stack */
+}
+
+/* Header font */
+header h1 {
+    font-family: 'Roboto', sans-serif; /* Example font stack */
+}
+
+/* Navigation font */
+nav ul li a {
+    font-family: 'Open Sans', sans-serif; /* Example font stack */
+}
+
+/* Section headers font */
+h2 {
+    font-family: 'Lato', sans-serif; /* Example font stack */
+}
+
+/* Social buttons font */
+.social-button {
+    font-family: 'Montserrat', sans-serif; /* Example font stack */
+}
+
+/* Footer font */
+footer {
+    font-family: 'Poppins', sans-serif; /* Example font stack */
+}
+
+/* Add more font-family declarations as needed */
+
 
