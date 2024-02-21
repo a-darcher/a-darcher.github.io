@@ -59,34 +59,17 @@
 
 /* Body font */
 body {
-    font-family: Arial, sans-serif; /* Example font stack */
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
 }
 
-/* Header font */
 header h1 {
-    font-family: 'Roboto', sans-serif; /* Example font stack */
+    font-family: 'Lato', sans-serif;
 }
 
-/* Navigation font */
-nav ul li a {
-    font-family: 'Open Sans', sans-serif; /* Example font stack */
-}
-
-/* Section headers font */
 h2 {
     font-family: 'Lato', sans-serif; /* Example font stack */
+    font-size: 20px;
 }
-
-/* Social buttons font */
-.social-button {
-    font-family: 'Montserrat', sans-serif; /* Example font stack */
-}
-
-/* Footer font */
-footer {
-    font-family: 'Poppins', sans-serif; /* Example font stack */
-}
-
-/* Add more font-family declarations as needed */
 
 
