@@ -9,7 +9,7 @@
 }
 
 .left img {
-    max-width: 100%; /* Ensure the image doesn't overflow its container */
+    max-width: 90%; /* Ensure the image doesn't overflow its container */
     border-radius: 50%; /* Make the image round */
     border: none; /* Add a border to the image (optional) */
 }
