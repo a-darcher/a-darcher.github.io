@@ -42,9 +42,15 @@
     height: auto; /* Maintain aspect ratio */
 }
 
-.title {
-    text-align: center; /* Center align the title */
+
+.profile-info {
+    text-align: center; /* Center align the profile info */
 }
+
+.title {
+    margin-bottom: 10px; /* Add some spacing between title and image */
+}
+
 
 
 /* Example font-family declarations */
