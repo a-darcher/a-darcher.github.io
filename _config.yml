@@ -3,16 +3,5 @@ title: Alana Darcher
 description: brains & co.
 url: https://a-darcher.github.io # Your GitHub Pages URL
 
-# Build settings
-markdown: kramdown
-permalink: pretty
-
-# Exclude files from processing
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor
-  - README.md
-  - LICENSE
+theme: jekyll-theme-cayman
 
