@@ -4,6 +4,10 @@
     margin-left: 25%; /* Move the container 25% from the left */
 }
 
+#blurb {
+    margin-bottom: 20px; /* Add bottom margin to the blurb section */
+}
+
 .left {
     flex: 0 0 auto; /* Don't allow the left column to grow */
     margin-right: 20px; /* Adjust as needed */
