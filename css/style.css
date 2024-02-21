@@ -29,11 +29,13 @@
 .social-button {
     display: inline-block;
     margin: 5px;
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
+    padding: 0; /* Remove padding from button */
+    background-color: transparent; /* Make background transparent */
+    border: none; /* Remove border */
+}
+
+.social-button img {
+    width: 40px; /* Adjust the width of the social logo */
 }
 
 /* Add your other CSS styles here */
