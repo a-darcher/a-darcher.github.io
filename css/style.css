@@ -42,6 +42,11 @@
     height: auto; /* Maintain aspect ratio */
 }
 
+.title {
+    text-align: center; /* Center align the title */
+}
+
+
 /* Example font-family declarations */
 
 /* Body font */
