@@ -1,97 +1,66 @@
-.container {
-    display: flex;
-    align-items: flex-start;
-    margin-left: 25%; /* Move the container 25% from the left */
+/* Reset CSS */
+html, body, header, nav, footer, section, ul, li, h1, h2, p, img {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-#blurb {
-    margin-bottom: 20px; /* Add bottom margin to the blurb section */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .left {
-    flex: 0 0 auto; /* Don't allow the left column to grow */
-    margin-right: 20px; /* Adjust as needed */
+    flex: 1;
+    max-width: 400px;
+    margin-bottom: 20px;
+}
+
+.left .image-container {
+    text-align: center;
 }
 
 .left img {
-    max-width: 90%; /* Ensure the image doesn't overflow its container */
-    border-radius: 50%; /* Make the image round */
-    border: none; /* Add a border to the image (optional) */
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 10px;
 }
-
 
 .right {
-   flex: 0 0 300px; /* Allow the right column to grow */
-    margin-top: 50px; /* Add top margin to the right column */
+    flex: 1;
+    max-width: 600px;
 }
 
-
-#socials {
-    margin-top: 20px; /* Add space between the image and social buttons */
-    text-align: center; /* Center align social buttons */
+.right section {
+    margin-bottom: 20px;
 }
 
-.social-buttons {
-    display: flex;
-    justify-content: center;
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    .left, .right {
+        max-width: 100%;
+    }
+
+    .right {
+        margin-left: 0;
+    }
 }
 
-.social-button {
-    display: inline-block;
-    margin: 5px;
-    padding: 0; /* Remove padding from button */
-    background-color: transparent; /* Make background transparent */
-    border: none; /* Remove border */
+@media screen and (max-width: 480px) {
+    .container {
+        padding: 5px;
+    }
 }
-
-.social-button img {
-    width: 30px; /* Decrease the width of the social logo */
-    height: auto; /* Maintain aspect ratio */
-}
-
-
-.profile-info {
-    text-align: center; /* Center align the profile info */
-}
-
-.title {
-    margin-bottom: 10px; /* Add some spacing between title and image */
-}
-
-
-
-/* Example font-family declarations */
-
-/* Body font */
-body {
-    font-family: Arial, sans-serif; /* Example font stack */
-}
-
-/* Header font */
-header h1 {
-    font-family: 'Roboto', sans-serif; /* Example font stack */
-}
-
-/* Navigation font */
-nav ul li a {
-    font-family: 'Open Sans', sans-serif; /* Example font stack */
-}
-
-/* Section headers font */
-h2 {
-    font-family: 'Lato', sans-serif; /* Example font stack */
-}
-
-/* Social buttons font */
-.social-button {
-    font-family: 'Montserrat', sans-serif; /* Example font stack */
-}
-
-/* Footer font */
-footer {
-    font-family: 'Poppins', sans-serif; /* Example font stack */
-}
-
-/* Add more font-family declarations as needed */
-
 
