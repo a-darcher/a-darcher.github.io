@@ -1,18 +1,14 @@
----
-layout: default
----
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alana Darcher</title>
-    <link rel="stylesheet" href="{{ site.baseurl }}/css/style.css">
+    <title>Your Name - Academic</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
-        <h1>Alana Darcher</h1>
+        <h1>Your Name</h1>
         <nav>
             <ul>
                 <li><a href="#education">Education</a></li>
@@ -22,17 +18,24 @@ layout: default
         </nav>
     </header>
 
-    <section id="education">
-        <h2>Education</h2>
-        <!-- Add your education information here -->
-    </section>
+    <div class="container">
+        <div class="left">
+            <img src="path/to/your/picture.jpg" alt="Your Picture">
+        </div>
+        <div class="right">
+            <section id="education">
+                <h2>Education</h2>
+                <!-- Add your education information here -->
+            </section>
 
-    <section id="publications">
-        <h2>Publications</h2>
-        <ul id="publicationList">
-            <!-- Publication links will be dynamically added here -->
-        </ul>
-    </section>
+            <section id="publications">
+                <h2>Publications</h2>
+                <ul id="publicationList">
+                    <!-- Publication links will be dynamically added here -->
+                </ul>
+            </section>
+        </div>
+    </div>
 
     <section id="socials">
         <h2>Socials</h2>
@@ -43,7 +46,7 @@ layout: default
         <p>&copy; 2024 Your Name</p>
     </footer>
 
-    <script src="{{ site.baseurl }}/js/script.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
 
