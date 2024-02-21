@@ -17,7 +17,9 @@
 
 .right {
     flex: 1; /* Allow the right column to grow */
+    margin-top: 50px; /* Add top margin to the right column */
 }
+
 
 #socials {
     margin-top: 20px; /* Add space between the image and social buttons */
