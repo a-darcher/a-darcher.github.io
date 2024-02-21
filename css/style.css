@@ -10,7 +10,7 @@
 
 .left {
     flex: 0 0 auto; /* Don't allow the left column to grow */
-    margin-right: 20px; /* Adjust as needed */
+    margin-right: 25px; /* Adjust as needed */
 }
 
 .left img {
