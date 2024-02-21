@@ -1,7 +1,7 @@
 .container {
     display: flex;
     align-items: flex-start;
-    margin-left: 10%; /* Move the container 25% from the left */
+    margin-left: 5%; /* Move the container 25% from the left */
 }
 
 #blurb {
