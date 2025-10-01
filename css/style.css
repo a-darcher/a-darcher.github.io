@@ -1,3 +1,8 @@
+/* CSS Custom Properties */
+:root {
+    --bg-color: #FFFFF5;
+}
+
 /* Reset and base styles */
 * {
     margin: 0;
@@ -10,7 +15,7 @@ body {
     font-size: 16px;
     line-height: 1.6;
     color: #3e5641;
-    background-color: #fefee3;
+    background-color: var(--bg-color);
     padding: 20px;
 }
 
@@ -136,7 +141,7 @@ a:hover {
 
 .publication {
     padding: 20px;
-    background-color: #fefee3;
+    background-color: var(--bg-color);
     border-radius: 8px;
     border-left: 4px solid #d68c45;
     margin-bottom: 16px;
@@ -145,7 +150,7 @@ a:hover {
 
 .publication:hover {
     background-color: #2c6e49;
-    color: #fefee3;
+    color: var(--bg-color);
 }
 
 /* Responsive design */
